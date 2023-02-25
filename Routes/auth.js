@@ -4,9 +4,9 @@ import bcrypt from 'bcrypt';
 import Joi from "joi";
 import passwordComplexity from "joi-password-complexity";
 
-const router=Router()
+const router=Router();
 
-
+// routerPost
 // router.post("/signUp",async(req,res)=>{
 //     try{
 
