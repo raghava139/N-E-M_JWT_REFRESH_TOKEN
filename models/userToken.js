@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 const Schema=mongoose.Schema
 const userTokenSchema=new Schema({
     userId:{
+    //In moongoose will automatically generate a new objectId value for the 'id' field -->
+    //if one isn't provided you can reterive document using their objectId values using mongoose findbyId() method
         type:Schema.Types.ObjectId,
         required:true,
     },
