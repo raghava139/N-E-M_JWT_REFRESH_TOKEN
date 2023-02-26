@@ -25,6 +25,7 @@ router.post('/users', async(req, res)=> {
     }
   });
 
+  //signUpBodyValidation
   const signUpBodyValidation=(body)=>{
     //  syntax-->Joi.object([schema])-->it is might be use to valdate an incoming json payload example --> userName,email,password
       const schema=Joi.object({
