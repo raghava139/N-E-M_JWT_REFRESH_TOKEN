@@ -37,16 +37,3 @@ router.post('/users', async(req, res)=> {
       })
       return schema.validate(body)
   }
-
-//first push
-//second push
-//third push
-
-//foruth push
-//fifth push
-
-//SIXTH PUSH
-//SEVENTH_PUSH
-//EIGHTH_PUSH
-//NINTH_PUSH
-//TENTH_PUSH
